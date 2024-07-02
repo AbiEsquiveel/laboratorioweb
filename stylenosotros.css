@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #4a4a4a;
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.perfil h1 {
+    margin: 0;
+}
+
+.biografia {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.biografia h2 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.biografia p {
+    color: #666666;
+    line-height: 1.6;
+}
+
+.amigos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: #4a4a4a;
+    color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.amigo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 10px; 
+}
+
+.amigos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px; 
+}
+
+.amigos h3 {
+    margin: 0;
+    color: #ffffff;
+}
+
+h2 {
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #4a4a4a;
+    margin: 0;
+}
