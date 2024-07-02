@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylehotel.css">
+    <script src="script.js"></script>
+    <title>Reservar habitacion</title>
+</head>
+<body>
+    
+        <br><h1>Formulario de Reserva</h1>
+        <section>
+        <label for="tipo_habitacion">Tipo de habitación:</label>
+        <select id="tipo_habitacion" name="tipo_habitacion" required>
+            <option value="individual">Individual</option>
+            <option value="doble">Doble</option>
+            <option value="suite">Suite</option>
+    
+        </select>
+    
+        <label for="num_personas">Número de personas:</label>
+        <input type="number" id="num_personas" name="num_personas" required>
+        
+        <label for="fecha_reserva">Fecha de reserva:</label>
+        <input type="date" id="fecha_reserva" name="fecha_reserva" required>
+        
+        <label for="fecha_finalizacion">Fecha de finalización:</label>
+        <input type="date" id="fecha_finalizacion" name="fecha_finalizacion" required>
+    
+        <input type="submit" value="Reservar">
+    </section>
+           
+   
+    <h1>Habitaciones Disponibles</h1>
+
+    <div class="container">
+        <div class="habitacion">
+            <h1>Habitacion 1</h1>
+            <img src="habitacionsimple.jpg" alt="img1">
+            <div class="texto">
+                <p>Habitacion para una persona (cama de 1 plaza), con baño, grandes vistas.</p>
+                <p>Valor: $100.000</p>
+                </div>
+        </div>
+
+
+        
+        <div class="habitacion">
+            <h1>Habitacion 2</h1>
+            <img src="habitaciondoble.jpeg" alt="img2">
+            <div class="texto">
+                <p>Habitacion para 2 personas hasta 4 personas, con 2 baños privados, grandes vistas, cocina.</p>
+                <p>Valor: $300.000</p>
+                </div>
+        </div>
+
+
+
+        <div class="habitacion">
+            <h1>Habitacion 3</h1>
+            <img src="suite.webp" alt="img3">
+            <div class="texto">
+                <p>Habitacion privada, con baños privados, minibar, cocina y servicio al cuarto.</p>
+                <p>Valor: $500.000</p>
+                </div>
+        </div> 
+
+
+    </div>
+
+    <h2>Historial de Reservas</h2>
+    <div id="reservas">
+
+    </div>
