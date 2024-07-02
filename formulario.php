@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulario de registro</title>
+    <link rel="stylesheet" type="text/css" href="styleformulario.css">
 </head>
 <body>
     <h1>Formulario de registro</h1>
